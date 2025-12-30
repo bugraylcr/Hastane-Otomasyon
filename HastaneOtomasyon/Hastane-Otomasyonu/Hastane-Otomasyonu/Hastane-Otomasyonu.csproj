@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7216013E-ACC7-4255-A259-5E0949B22703}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Hastane_Otomasyonu</RootNamespace>
+    <AssemblyName>Hastane-Otomasyonu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminGiris.Designer.cs">
+      <DependentUpon>AdminGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.Designer.cs">
+      <DependentUpon>AdminPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminSayfa.Designer.cs">
+      <DependentUpon>AdminSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BransSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BransSayfa.Designer.cs">
+      <DependentUpon>BransSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deneme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deneme.Designer.cs">
+      <DependentUpon>Deneme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoktorDetay.Designer.cs">
+      <DependentUpon>DoktorDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoktorGiris.Designer.cs">
+      <DependentUpon>DoktorGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoktorKayit.Designer.cs">
+      <DependentUpon>DoktorKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoktorSayfa.Designer.cs">
+      <DependentUpon>DoktorSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HastaDetay.Designer.cs">
+      <DependentUpon>HastaDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaLab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HastaLab.Designer.cs">
+      <DependentUpon>HastaLab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet25.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet26.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet27.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet28.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet29.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet29.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet30.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet30.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneDBDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneDBDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaRecete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HastaRecete.Designer.cs">
+      <DependentUpon>HastaRecete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HastaSayfa.Designer.cs">
+      <DependentUpon>HastaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KayitSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KayitSayfa.Designer.cs">
+      <DependentUpon>KayitSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LabDoktor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LabDoktor.Designer.cs">
+      <DependentUpon>LabDoktor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MhrsSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MhrsSayfa.Designer.cs">
+      <DependentUpon>MhrsSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandevuDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RandevuDetay.Designer.cs">
+      <DependentUpon>RandevuDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RandevuSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RandevuSayfa.Designer.cs">
+      <DependentUpon>RandevuSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Receteler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receteler.Designer.cs">
+      <DependentUpon>Receteler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SekreterGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SekreterGiris.Designer.cs">
+      <DependentUpon>SekreterGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SekreterSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SekreterSayfa.Designer.cs">
+      <DependentUpon>SekreterSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yuvarlakbuton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="AdminGiris.resx">
+      <DependentUpon>AdminGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.resx">
+      <DependentUpon>AdminPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminSayfa.resx">
+      <DependentUpon>AdminSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BransSayfa.resx">
+      <DependentUpon>BransSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deneme.resx">
+      <DependentUpon>Deneme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoktorDetay.resx">
+      <DependentUpon>DoktorDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoktorGiris.resx">
+      <DependentUpon>DoktorGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoktorKayit.resx">
+      <DependentUpon>DoktorKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoktorSayfa.resx">
+      <DependentUpon>DoktorSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HastaDetay.resx">
+      <DependentUpon>HastaDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HastaLab.resx">
+      <DependentUpon>HastaLab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HastaRecete.resx">
+      <DependentUpon>HastaRecete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HastaSayfa.resx">
+      <DependentUpon>HastaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KayitSayfa.resx">
+      <DependentUpon>KayitSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LabDoktor.resx">
+      <DependentUpon>LabDoktor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MhrsSayfa.resx">
+      <DependentUpon>MhrsSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RandevuDetay.resx">
+      <DependentUpon>RandevuDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RandevuSayfa.resx">
+      <DependentUpon>RandevuSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receteler.resx">
+      <DependentUpon>Receteler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SekreterGiris.resx">
+      <DependentUpon>SekreterGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SekreterSayfa.resx">
+      <DependentUpon>SekreterSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yuvarlakbuton.resx">
+      <DependentUpon>Yuvarlakbuton.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="HastaneDBDataSet.xsc">
+      <DependentUpon>HastaneDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet.xss">
+      <DependentUpon>HastaneDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet1.xsc">
+      <DependentUpon>HastaneDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet1.xss">
+      <DependentUpon>HastaneDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet10.xsc">
+      <DependentUpon>HastaneDBDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet10.xss">
+      <DependentUpon>HastaneDBDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet11.xsc">
+      <DependentUpon>HastaneDBDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet11.xss">
+      <DependentUpon>HastaneDBDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet12.xsc">
+      <DependentUpon>HastaneDBDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet12.xss">
+      <DependentUpon>HastaneDBDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet13.xsc">
+      <DependentUpon>HastaneDBDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet13.xss">
+      <DependentUpon>HastaneDBDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet14.xsc">
+      <DependentUpon>HastaneDBDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet14.xss">
+      <DependentUpon>HastaneDBDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet15.xsc">
+      <DependentUpon>HastaneDBDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet15.xss">
+      <DependentUpon>HastaneDBDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet16.xsc">
+      <DependentUpon>HastaneDBDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet16.xss">
+      <DependentUpon>HastaneDBDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet17.xsc">
+      <DependentUpon>HastaneDBDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet17.xss">
+      <DependentUpon>HastaneDBDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet18.xsc">
+      <DependentUpon>HastaneDBDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet18.xss">
+      <DependentUpon>HastaneDBDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet19.xsc">
+      <DependentUpon>HastaneDBDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet19.xss">
+      <DependentUpon>HastaneDBDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet2.xsc">
+      <DependentUpon>HastaneDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet2.xss">
+      <DependentUpon>HastaneDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet20.xsc">
+      <DependentUpon>HastaneDBDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet20.xss">
+      <DependentUpon>HastaneDBDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet21.xsc">
+      <DependentUpon>HastaneDBDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet21.xss">
+      <DependentUpon>HastaneDBDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet22.xsc">
+      <DependentUpon>HastaneDBDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet22.xss">
+      <DependentUpon>HastaneDBDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet23.xsc">
+      <DependentUpon>HastaneDBDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet23.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet23.xss">
+      <DependentUpon>HastaneDBDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet24.xsc">
+      <DependentUpon>HastaneDBDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet24.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet24.xss">
+      <DependentUpon>HastaneDBDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet25.xsc">
+      <DependentUpon>HastaneDBDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet25.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet25.xss">
+      <DependentUpon>HastaneDBDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet26.xsc">
+      <DependentUpon>HastaneDBDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet26.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet26.xss">
+      <DependentUpon>HastaneDBDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet27.xsc">
+      <DependentUpon>HastaneDBDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet27.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet27.xss">
+      <DependentUpon>HastaneDBDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet28.xsc">
+      <DependentUpon>HastaneDBDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet28.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet28.xss">
+      <DependentUpon>HastaneDBDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet29.xsc">
+      <DependentUpon>HastaneDBDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet29.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet29.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet29.xss">
+      <DependentUpon>HastaneDBDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet3.xsc">
+      <DependentUpon>HastaneDBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet3.xss">
+      <DependentUpon>HastaneDBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet30.xsc">
+      <DependentUpon>HastaneDBDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet30.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet30.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet30.xss">
+      <DependentUpon>HastaneDBDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet4.xsc">
+      <DependentUpon>HastaneDBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet4.xss">
+      <DependentUpon>HastaneDBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet5.xsc">
+      <DependentUpon>HastaneDBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet5.xss">
+      <DependentUpon>HastaneDBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet6.xsc">
+      <DependentUpon>HastaneDBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet6.xss">
+      <DependentUpon>HastaneDBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet7.xsc">
+      <DependentUpon>HastaneDBDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet7.xss">
+      <DependentUpon>HastaneDBDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet8.xsc">
+      <DependentUpon>HastaneDBDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet8.xss">
+      <DependentUpon>HastaneDBDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet9.xsc">
+      <DependentUpon>HastaneDBDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneDBDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneDBDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneDBDataSet9.xss">
+      <DependentUpon>HastaneDBDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HastaneLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoktorLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HastaAdamLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SekreterLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdminLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdminLogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FotooAdmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdminLogo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdminLogo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MhrsFoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fotoMhrs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LabLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LabFoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RaporFoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KalpRöntgen.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkolyozFoto.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BurunFoto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KalpRöntgen1.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

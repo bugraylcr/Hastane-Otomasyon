@@ -1,0 +1,1 @@
+Data Source=DESKTOP-PR6L655;Initial Catalog=HastaneDB;Integrated Security=True;Encrypt=False;Trust Server Certificate=True

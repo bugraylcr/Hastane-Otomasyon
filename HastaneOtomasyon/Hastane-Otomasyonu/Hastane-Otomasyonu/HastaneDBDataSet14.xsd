@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HastaneDBDataSet14" targetNamespace="http://tempuri.org/HastaneDBDataSet14.xsd" xmlns:mstns="http://tempuri.org/HastaneDBDataSet14.xsd" xmlns="http://tempuri.org/HastaneDBDataSet14.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="HastaneDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HastaneDBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Hastane_Otomasyonu.Properties.Settings.GlobalReference.Default.HastaneDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="OnayliOlmayanTabloTableAdapter" GeneratorDataComponentClassName="OnayliOlmayanTabloTableAdapter" Name="OnayliOlmayanTablo" UserDataComponentName="OnayliOlmayanTabloTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="HastaneDBConnectionString (Settings)" DbObjectName="HastaneDB.dbo.OnayliOlmayanTablo" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Randevuid, RandevuTarih, RandevuSaat, HastaOnayla, HastaAd, HastaSoyad, TC_Kimlik, HastaBilgilendirme, DoktorAd, Brans FROM dbo.OnayliOlmayanTablo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Randevuid" DataSetColumn="Randevuid" />
+              <Mapping SourceColumn="RandevuTarih" DataSetColumn="RandevuTarih" />
+              <Mapping SourceColumn="RandevuSaat" DataSetColumn="RandevuSaat" />
+              <Mapping SourceColumn="HastaOnayla" DataSetColumn="HastaOnayla" />
+              <Mapping SourceColumn="HastaAd" DataSetColumn="HastaAd" />
+              <Mapping SourceColumn="HastaSoyad" DataSetColumn="HastaSoyad" />
+              <Mapping SourceColumn="TC_Kimlik" DataSetColumn="TC_Kimlik" />
+              <Mapping SourceColumn="HastaBilgilendirme" DataSetColumn="HastaBilgilendirme" />
+              <Mapping SourceColumn="DoktorAd" DataSetColumn="DoktorAd" />
+              <Mapping SourceColumn="Brans" DataSetColumn="Brans" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="HastaneDBDataSet14" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="HastaneDBDataSet14" msprop:Generator_DataSetName="HastaneDBDataSet14">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="OnayliOlmayanTablo" msprop:Generator_RowEvHandlerName="OnayliOlmayanTabloRowChangeEventHandler" msprop:Generator_RowDeletedName="OnayliOlmayanTabloRowDeleted" msprop:Generator_RowDeletingName="OnayliOlmayanTabloRowDeleting" msprop:Generator_RowEvArgName="OnayliOlmayanTabloRowChangeEvent" msprop:Generator_TablePropName="OnayliOlmayanTablo" msprop:Generator_RowChangedName="OnayliOlmayanTabloRowChanged" msprop:Generator_RowChangingName="OnayliOlmayanTabloRowChanging" msprop:Generator_TableClassName="OnayliOlmayanTabloDataTable" msprop:Generator_RowClassName="OnayliOlmayanTabloRow" msprop:Generator_TableVarName="tableOnayliOlmayanTablo" msprop:Generator_UserTableName="OnayliOlmayanTablo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Randevuid" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInRow="Randevuid" msprop:Generator_ColumnPropNameInTable="RandevuidColumn" msprop:Generator_ColumnVarNameInTable="columnRandevuid" msprop:Generator_UserColumnName="Randevuid" type="xs:int" />
+              <xs:element name="RandevuTarih" msprop:Generator_ColumnPropNameInRow="RandevuTarih" msprop:Generator_ColumnPropNameInTable="RandevuTarihColumn" msprop:Generator_ColumnVarNameInTable="columnRandevuTarih" msprop:Generator_UserColumnName="RandevuTarih" type="xs:dateTime" />
+              <xs:element name="RandevuSaat" msprop:Generator_ColumnPropNameInRow="RandevuSaat" msprop:Generator_ColumnPropNameInTable="RandevuSaatColumn" msprop:Generator_ColumnVarNameInTable="columnRandevuSaat" msprop:Generator_UserColumnName="RandevuSaat" type="xs:duration" />
+              <xs:element name="HastaOnayla" msprop:Generator_ColumnPropNameInRow="HastaOnayla" msprop:Generator_ColumnPropNameInTable="HastaOnaylaColumn" msprop:Generator_ColumnVarNameInTable="columnHastaOnayla" msprop:Generator_UserColumnName="HastaOnayla" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HastaAd" msprop:Generator_ColumnPropNameInRow="HastaAd" msprop:Generator_ColumnPropNameInTable="HastaAdColumn" msprop:Generator_ColumnVarNameInTable="columnHastaAd" msprop:Generator_UserColumnName="HastaAd">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HastaSoyad" msprop:Generator_ColumnPropNameInRow="HastaSoyad" msprop:Generator_ColumnPropNameInTable="HastaSoyadColumn" msprop:Generator_ColumnVarNameInTable="columnHastaSoyad" msprop:Generator_UserColumnName="HastaSoyad">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TC_Kimlik" msprop:Generator_ColumnPropNameInRow="TC_Kimlik" msprop:Generator_ColumnPropNameInTable="TC_KimlikColumn" msprop:Generator_ColumnVarNameInTable="columnTC_Kimlik" msprop:Generator_UserColumnName="TC_Kimlik">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HastaBilgilendirme" msprop:Generator_ColumnPropNameInRow="HastaBilgilendirme" msprop:Generator_ColumnPropNameInTable="HastaBilgilendirmeColumn" msprop:Generator_ColumnVarNameInTable="columnHastaBilgilendirme" msprop:Generator_UserColumnName="HastaBilgilendirme">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DoktorAd" msprop:Generator_ColumnPropNameInRow="DoktorAd" msprop:Generator_ColumnPropNameInTable="DoktorAdColumn" msprop:Generator_ColumnVarNameInTable="columnDoktorAd" msprop:Generator_UserColumnName="DoktorAd">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Brans" msprop:Generator_ColumnPropNameInRow="Brans" msprop:Generator_ColumnPropNameInTable="BransColumn" msprop:Generator_ColumnVarNameInTable="columnBrans" msprop:Generator_UserColumnName="Brans">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:OnayliOlmayanTablo" />
+      <xs:field xpath="mstns:Randevuid" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HastaneDBDataSet19" targetNamespace="http://tempuri.org/HastaneDBDataSet19.xsd" xmlns:mstns="http://tempuri.org/HastaneDBDataSet19.xsd" xmlns="http://tempuri.org/HastaneDBDataSet19.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="HastaneDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HastaneDBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Hastane_Otomasyonu.Properties.Settings.GlobalReference.Default.HastaneDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="HastaBilgilerTableAdapter" GeneratorDataComponentClassName="HastaBilgilerTableAdapter" Name="HastaBilgiler" UserDataComponentName="HastaBilgilerTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="HastaneDBConnectionString (Settings)" DbObjectName="HastaneDB.dbo.HastaBilgiler" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT HastaAd, HastaSoyad, TC_Kimlik, RandevuTarih, RandevuSaat, HastaBilgilendirme, HastaYas FROM dbo.HastaBilgiler</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="HastaAd" DataSetColumn="HastaAd" />
+              <Mapping SourceColumn="HastaSoyad" DataSetColumn="HastaSoyad" />
+              <Mapping SourceColumn="TC_Kimlik" DataSetColumn="TC_Kimlik" />
+              <Mapping SourceColumn="RandevuTarih" DataSetColumn="RandevuTarih" />
+              <Mapping SourceColumn="RandevuSaat" DataSetColumn="RandevuSaat" />
+              <Mapping SourceColumn="HastaBilgilendirme" DataSetColumn="HastaBilgilendirme" />
+              <Mapping SourceColumn="HastaYas" DataSetColumn="HastaYas" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="HastaneDBDataSet19" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="HastaneDBDataSet19" msprop:Generator_DataSetName="HastaneDBDataSet19">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="HastaBilgiler" msprop:Generator_RowEvHandlerName="HastaBilgilerRowChangeEventHandler" msprop:Generator_RowDeletedName="HastaBilgilerRowDeleted" msprop:Generator_RowDeletingName="HastaBilgilerRowDeleting" msprop:Generator_RowEvArgName="HastaBilgilerRowChangeEvent" msprop:Generator_TablePropName="HastaBilgiler" msprop:Generator_RowChangedName="HastaBilgilerRowChanged" msprop:Generator_RowChangingName="HastaBilgilerRowChanging" msprop:Generator_TableClassName="HastaBilgilerDataTable" msprop:Generator_RowClassName="HastaBilgilerRow" msprop:Generator_TableVarName="tableHastaBilgiler" msprop:Generator_UserTableName="HastaBilgiler">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HastaAd" msprop:Generator_ColumnPropNameInRow="HastaAd" msprop:Generator_ColumnPropNameInTable="HastaAdColumn" msprop:Generator_ColumnVarNameInTable="columnHastaAd" msprop:Generator_UserColumnName="HastaAd">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HastaSoyad" msprop:Generator_ColumnPropNameInRow="HastaSoyad" msprop:Generator_ColumnPropNameInTable="HastaSoyadColumn" msprop:Generator_ColumnVarNameInTable="columnHastaSoyad" msprop:Generator_UserColumnName="HastaSoyad">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TC_Kimlik" msprop:Generator_ColumnPropNameInRow="TC_Kimlik" msprop:Generator_ColumnPropNameInTable="TC_KimlikColumn" msprop:Generator_ColumnVarNameInTable="columnTC_Kimlik" msprop:Generator_UserColumnName="TC_Kimlik">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RandevuTarih" msprop:Generator_ColumnPropNameInRow="RandevuTarih" msprop:Generator_ColumnPropNameInTable="RandevuTarihColumn" msprop:Generator_ColumnVarNameInTable="columnRandevuTarih" msprop:Generator_UserColumnName="RandevuTarih" type="xs:dateTime" />
+              <xs:element name="RandevuSaat" msprop:Generator_ColumnPropNameInRow="RandevuSaat" msprop:Generator_ColumnPropNameInTable="RandevuSaatColumn" msprop:Generator_ColumnVarNameInTable="columnRandevuSaat" msprop:Generator_UserColumnName="RandevuSaat" type="xs:duration" />
+              <xs:element name="HastaBilgilendirme" msprop:Generator_ColumnPropNameInRow="HastaBilgilendirme" msprop:Generator_ColumnPropNameInTable="HastaBilgilendirmeColumn" msprop:Generator_ColumnVarNameInTable="columnHastaBilgilendirme" msprop:Generator_UserColumnName="HastaBilgilendirme">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HastaYas" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="HastaYas" msprop:Generator_ColumnPropNameInTable="HastaYasColumn" msprop:Generator_ColumnVarNameInTable="columnHastaYas" msprop:Generator_UserColumnName="HastaYas" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

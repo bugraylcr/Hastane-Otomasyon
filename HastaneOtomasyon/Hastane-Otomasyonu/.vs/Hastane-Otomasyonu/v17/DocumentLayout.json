@@ -1,0 +1,659 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\adminpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\adminpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\hastarecete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\hastarecete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\labdoktor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\labdoktor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\doktorsayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\doktorsayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\hastalab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\hastalab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\kayitsayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\kayitsayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\kayitsayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\kayitsayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\mhrssayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\mhrssayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\sekretergiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\sekretergiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\sekretergiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\sekretergiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\adminsayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\adminsayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\doktorkayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\doktorkayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\randevusayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\randevusayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\deneme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\deneme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\deneme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\deneme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\doktordetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\doktordetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\doktorsayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\doktorsayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\doktorgiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\doktorgiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\randevudetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\randevudetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\receteler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\receteler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\adminpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\adminpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\randevusayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\randevusayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|c:\\users\\w11\\desktop\\hastaneotomasyon\\hastane-otomasyonu\\hastane-otomasyonu\\labdoktor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\labdoktor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\hastalab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\hastalab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\hastadetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\hastadetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\mhrssayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\mhrssayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\adminsayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\adminsayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\doktorkayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\doktorkayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\sekretersayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\sekretersayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\sekretersayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\sekretersayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\doktorgiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\doktorgiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\hastasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\hastasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\hastasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\hastasayfa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\doktordetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\doktordetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\randevudetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\randevudetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\receteler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\receteler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\hastane-otomasyonu\\hastarecete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7216013E-ACC7-4255-A259-5E0949B22703}|Hastane-Otomasyonu\\Hastane-Otomasyonu.csproj|solutionrelative:hastane-otomasyonu\\hastarecete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KayitSayfa.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\KayitSayfa.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\KayitSayfa.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\KayitSayfa.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\KayitSayfa.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAmwAQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T07:15:56.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KayitSayfa.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\KayitSayfa.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\KayitSayfa.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\KayitSayfa.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\KayitSayfa.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T07:15:51.776Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HastaDetay.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\HastaDetay.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\HastaDetay.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\HastaDetay.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\HastaDetay.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T07:15:47.176Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HastaLab.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\HastaLab.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\HastaLab.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\HastaLab.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\HastaLab.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwCgAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T03:05:28.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HastaLab.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\HastaLab.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\HastaLab.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\HastaLab.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\HastaLab.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T03:04:52.738Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoktorSayfa.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\DoktorSayfa.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\DoktorSayfa.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\DoktorSayfa.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\DoktorSayfa.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAuwKEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T01:33:28.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LabDoktor.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\LabDoktor.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\LabDoktor.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\LabDoktor.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\LabDoktor.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAqwDcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T06:12:47.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LabDoktor.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\LabDoktor.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\LabDoktor.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\LabDoktor.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\LabDoktor.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T06:12:40.487Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HastaRecete.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\HastaRecete.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\HastaRecete.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\HastaRecete.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\HastaRecete.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAcwDgAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T16:53:38.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RandevuSayfa.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\RandevuSayfa.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\RandevuSayfa.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\RandevuSayfa.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\RandevuSayfa.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAvwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T10:18:39.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminPanel.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\AdminPanel.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\AdminPanel.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\AdminPanel.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\AdminPanel.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T07:21:22.577Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminPanel.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\AdminPanel.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\AdminPanel.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\AdminPanel.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\AdminPanel.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T07:24:38.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "HastaRecete.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\HastaRecete.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\HastaRecete.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\HastaRecete.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\HastaRecete.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T16:52:52.456Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Receteler.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\Receteler.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\Receteler.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\Receteler.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\Receteler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T14:25:46.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Receteler.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\Receteler.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\Receteler.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\Receteler.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\Receteler.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T14:24:11.132Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Form1.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\Form1.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\Form1.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\Form1.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\Form1.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T02:27:45.932Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RandevuDetay.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\RandevuDetay.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\RandevuDetay.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\RandevuDetay.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\RandevuDetay.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T15:49:45.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RandevuDetay.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\RandevuDetay.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\RandevuDetay.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\RandevuDetay.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\RandevuDetay.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T15:49:22.181Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DoktorGiris.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\DoktorGiris.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\DoktorGiris.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\DoktorGiris.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\DoktorGiris.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwEEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T01:34:43.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DoktorGiris.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\DoktorGiris.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\DoktorGiris.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\DoktorGiris.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\DoktorGiris.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T01:34:41.458Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DoktorSayfa.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\DoktorSayfa.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\DoktorSayfa.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\DoktorSayfa.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\DoktorSayfa.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T01:33:21.108Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DoktorDetay.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\DoktorDetay.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\DoktorDetay.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\DoktorDetay.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\DoktorDetay.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBYAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T15:50:33.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DoktorDetay.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\DoktorDetay.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\DoktorDetay.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\DoktorDetay.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\DoktorDetay.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T15:50:32.043Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Deneme.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\Deneme.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\Deneme.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\Deneme.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\Deneme.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T12:18:53.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Deneme.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\Deneme.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\Deneme.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\Deneme.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\Deneme.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T12:18:27.085Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RandevuSayfa.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\RandevuSayfa.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\RandevuSayfa.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\RandevuSayfa.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\RandevuSayfa.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T06:38:10.107Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DoktorKayit.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\DoktorKayit.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\DoktorKayit.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\DoktorKayit.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\DoktorKayit.cs",
+              "ViewState": "AgIAANkAAAAAAAAAAADwvxgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T19:47:17.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DoktorKayit.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\DoktorKayit.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\DoktorKayit.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\DoktorKayit.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\DoktorKayit.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T19:47:14.54Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminSayfa.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\AdminSayfa.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\AdminSayfa.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\AdminSayfa.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\AdminSayfa.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAIwJUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T19:42:24.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AdminSayfa.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\AdminSayfa.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\AdminSayfa.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\AdminSayfa.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\AdminSayfa.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T19:42:19.905Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SekreterGiris.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\SekreterGiris.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\SekreterGiris.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\SekreterGiris.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\SekreterGiris.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwBYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:40:09.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SekreterGiris.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\SekreterGiris.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\SekreterGiris.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\SekreterGiris.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\SekreterGiris.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T10:40:06.014Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MhrsSayfa.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\MhrsSayfa.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\MhrsSayfa.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\MhrsSayfa.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\MhrsSayfa.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAqwMkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T09:54:59.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MhrsSayfa.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\MhrsSayfa.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\MhrsSayfa.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\MhrsSayfa.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\MhrsSayfa.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T09:54:56.218Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HastaSayfa.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\HastaSayfa.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\HastaSayfa.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\HastaSayfa.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\HastaSayfa.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T18:02:03.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SekreterSayfa.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\SekreterSayfa.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\SekreterSayfa.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\SekreterSayfa.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Hastane-Otomasyonu\\SekreterSayfa.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T14:41:09.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SekreterSayfa.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\SekreterSayfa.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\SekreterSayfa.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\SekreterSayfa.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\SekreterSayfa.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T14:04:21.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HastaSayfa.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\HastaSayfa.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\HastaSayfa.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\HastaSayfa.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\HastaSayfa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T20:56:13.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\Form1.cs",
+              "RelativeDocumentMoniker": "Hastane-Otomasyonu\\Form1.cs",
+              "ToolTip": "C:\\Users\\W11\\Desktop\\HastaneOtomasyon\\Hastane-Otomasyonu\\Hastane-Otomasyonu\\Form1.cs",
+              "RelativeToolTip": "Hastane-Otomasyonu\\Form1.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T21:18:01.266Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
